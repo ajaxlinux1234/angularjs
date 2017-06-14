@@ -1,1 +1,1 @@
-# angularjs
+此文件加为平时学习angular的一些基本知识的连续，以及一些小的demo
