@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>textnode</title>
+	<script src="../angular.min.js"></script>
+	<script src="./app.js"></script>
+</head>
+<body ng-app="app" ng-controller="myCtrl">
+	<textarea name="" ng-model="message"  id="" cols="30" rows="10"></textarea>
+
+	<button ng-click="save()">保存</button>
+	<button ng-click="clear()">清除</button>
+	<p>剩余的数字:<span ng-bind="left()"></span></p>
+</body>
+</html>
